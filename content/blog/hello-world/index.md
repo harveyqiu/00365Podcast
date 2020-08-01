@@ -1,22 +1,27 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+number: 1
+title: "Episode 1: 游戏"
+slug: "game"
+date: "2020-08-01"
+url: http://podcastpp.test.upcdn.net/export.mp3
+enclosure:
+  url: http://podcastpp.test.upcdn.net/export.mp3
+  type: audio/mpeg
+categories:
+  - Journal
+description: ""
 ---
 
-This is my first post on my new fake blog! How exciting!
+- 你记忆里的第一款游戏？
+- 玩过什么类型的游戏（fps rts moba），最喜欢的类型？
+- 玩到至今觉得有意思的游戏？
+- 游戏对于现在的你是什么？
+- 未来还会打游戏吗？
+- 如何看待“玩物丧志”
+- 云游戏
+- 互动游戏
+- 教学游戏
+- VR游戏
+- AR游戏
 
-I'm sure I'll write a lot more interesting things in the future.
-
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
-
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-![Chinese Salty Egg](./salty_egg.jpg)
+邮箱：Podcast00365@outlook.com
