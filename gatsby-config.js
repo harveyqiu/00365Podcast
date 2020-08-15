@@ -2,28 +2,29 @@
 const feedOptions = {
   title: '00365 Podcast',
   description: '一档探究热情与好奇心的播客节目',
-  feed_url: 'http://example.com/rss.xml',
-  site_url: 'http://example.com',
-  image_url: 'http://example.com/icon.png',
-  docs: 'http://example.com/rss/docs.html',
-  managingEditor: 'Dylan Greene',
-  webMaster: 'Dylan Greene',
+  feed_url: 'https://alienmao.github.io/00365Podcast/rss.xml',
+  site_url: 'https://alienmao.github.io/00365Podcast/',
+  image_url: 'https://alienmao.github.io/00365Podcast/logo.png',
+  docs: 'https://example.com/rss/docs.html',
+  managingEditor: 'Harvey Qiu & Monshell Su',
+  webMaster: 'Harvey Qiu',
   copyright: '2020 Harvey Qiu & Monshell Su',
   language: 'zh-cn',
-  categories: ['Category 1','Category 2','Category 3'],
-  pubDate: 'May 20, 2019 04:00:00 GMT',
+  categories: ['Journal','Technology','Talk'],
+  pubDate: 'July 19, 2020 00:36:50 GMT',
   ttl: '60',
   custom_namespaces: {
     'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
   },
   custom_elements: [
-    {'itunes:subtitle': 'A show about everything'},
-    {'itunes:author': 'John Doe'},
-    {'itunes:summary': 'All About Everything is a show about everything. Each week we dive into any subject known to man and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store'},
+    {'itunes:subtitle': 'subtitle!'},
+    {'itunes:author': 'Harvey Qiu & Monshell Su'},
+    {'itunes:summary': '一档探讨热情与好奇心的播客节目'},
     {'itunes:owner': [
-      {'itunes:name': 'John Doe'},
-      {'itunes:email': 'john.doe@example.com'}
-    ]},
+      {'itunes:name': 'Harvey Qiu'},
+      {'itunes:email': 'qiushimao@hotmail.com'}
+    ]
+    },
     {'itunes:image': {
       _attr: {
         href: 'http://example.com/podcasts/everything/AllAboutEverything.jpg'
@@ -35,7 +36,7 @@ const feedOptions = {
       }},
       {'itunes:category': {
         _attr: {
-          text: 'Gadgets'
+          text: 'Journal'
         }
       }}
     ]}
@@ -43,17 +44,15 @@ const feedOptions = {
 }
 
 module.exports = {
+  pathPrefix: "/00365Podcast",
   siteMetadata: {
     title: `00365 Podcast`,
     author: {
       name: `Harvey Qiu & Monshell Su`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `两位大学生`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `一档探讨热情与好奇心的播客节目`,
+    siteUrl: `https://alienmao.github.io/00365Podcast/`,
   },
   plugins: [
     {
