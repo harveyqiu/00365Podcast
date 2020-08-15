@@ -24,4 +24,6 @@ description: ""
 - VR游戏
 - AR游戏
 
+Host: 世贸 & 孟帅
+
 邮箱：Podcast00365@outlook.com
