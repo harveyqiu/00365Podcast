@@ -3,9 +3,9 @@ number: 1
 title: "Episode 1: 游戏"
 slug: "game"
 date: "2020-08-01"
-url: http://podcastpp.test.upcdn.net/export.mp3
+url: http://podcastpp.test.upcdn.net/S1E1.mp3
 enclosure:
-  url: http://podcastpp.test.upcdn.net/export.mp3
+  url: http://podcastpp.test.upcdn.net/S1E1.mp3
   type: audio/mpeg
 categories:
   - Journal
