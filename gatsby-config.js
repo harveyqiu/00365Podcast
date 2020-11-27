@@ -2,9 +2,9 @@
 const feedOptions = {
   title: '00365 Podcast',
   description: '一档探究热情与好奇心的播客节目',
-  feed_url: 'https://alienmao.github.io/00365Podcast/rss.xml',
-  site_url: 'https://alienmao.github.io/00365Podcast/',
-  image_url: 'https://alienmao.github.io/00365Podcast/logo.png',
+  feed_url: 'http://00365.harveyqiu.xyz/rss.xml',
+  site_url: 'http://00365.harveyqiu.xyz/',
+  image_url: 'http://00365.harveyqiu.xyz/logo.png',
   docs: 'https://example.com/rss/docs.html',
   managingEditor: 'Harvey Qiu & Monshell Su',
   webMaster: 'Harvey Qiu',
@@ -27,7 +27,7 @@ const feedOptions = {
     },
     {'itunes:image': {
       _attr: {
-        href: 'http://example.com/podcasts/everything/AllAboutEverything.jpg'
+        href: 'http://00365.harveyqiu.xyz/logo.png'
       }
     }},
     {'itunes:category': [
