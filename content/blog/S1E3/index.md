@@ -1,6 +1,6 @@
 ---
 number: 1
-title: "Episode 1: 电商直播"
+title: "Episode 3: 电商直播"
 slug: "e-commerce live"
 date: "2020-11-27"
 url: http://podcastpp.test.upcdn.net/S1E3.mp3
