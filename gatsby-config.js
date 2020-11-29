@@ -6,9 +6,9 @@ const feedOptions = {
   site_url: 'http://00365.harveyqiu.xyz/',
   image_url: 'http://00365.harveyqiu.xyz/logo.png',
   docs: 'https://example.com/rss/docs.html',
-  managingEditor: 'Harvey Qiu & Monshell Su',
+  managingEditor: 'Harvey Qiu & Monsell Su',
   webMaster: 'Harvey Qiu',
-  copyright: '2020 Harvey Qiu & Monshell Su',
+  copyright: '2020 Harvey Qiu & Monsell Su',
   language: 'zh-cn',
   categories: ['Journal','Technology','Talk'],
   pubDate: 'July 19, 2020 00:36:50 GMT',
@@ -18,7 +18,7 @@ const feedOptions = {
   },
   custom_elements: [
     {'itunes:subtitle': 'subtitle!'},
-    {'itunes:author': 'Harvey Qiu & Monshell Su'},
+    {'itunes:author': 'Harvey Qiu & Monsell Su'},
     {'itunes:summary': '一档探讨热情与好奇心的播客节目'},
     {'itunes:owner': [
       {'itunes:name': 'Harvey Qiu'},
@@ -48,7 +48,7 @@ module.exports = {
   siteMetadata: {
     title: `00365 Podcast`,
     author: {
-      name: `Harvey Qiu & Monshell Su`,
+      name: `Harvey Qiu & Monsell Su`,
       summary: `两位大学生`,
     },
     description: `一档探讨热情与好奇心的播客节目`,
