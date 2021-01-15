@@ -44,7 +44,6 @@ const feedOptions = {
 }
 
 module.exports = {
-  pathPrefix: "/00365Podcast",
   siteMetadata: {
     title: `00365 Podcast`,
     author: {
@@ -52,7 +51,7 @@ module.exports = {
       summary: `两位大学生`,
     },
     description: `一档探讨热情与好奇心的播客节目`,
-    siteUrl: `https://alienmao.github.io/00365Podcast/`,
+    siteUrl: `http://00365.harveyqiu.xyz/`,
   },
   plugins: [
     {
