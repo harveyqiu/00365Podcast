@@ -14,6 +14,6 @@ description: ""
 
 在最后提到了网课直播。
 
-Host: 世贸 & 孟帅
+Host: Harvey & 孟帅
 
 邮箱：Podcast00365@outlook.com
