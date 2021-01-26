@@ -16,13 +16,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article>
-        <header>
-          <h1
-            style={{
-              marginTop: rhythm(1),
-              marginBottom: 0,
-            }}
+      <div class="container">
+        <div>
+          <h1 class="title"
           >
             {post.frontmatter.title}
           </h1>
@@ -34,15 +30,15 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             }}
           >
             {post.frontmatter.date}
-          </p>
-        </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          </p> 
+        </div>
+        <div class="content" dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
-      </article>
+      </div>
 
       <nav>
         <ul
